@@ -279,4 +279,20 @@ header .menu3 .menu-btn:hover{
     font-size: 16px;
 }
 
+.end{
+    background-color: #ffffff;
+    height: 241.5px
+    
+}
+.last-img{
+    margin-left: 6px;
+    
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+    width: 33%;
+}
+
+
 /* End */
