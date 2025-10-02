@@ -99,6 +99,7 @@ header .login-btn .btn-login1{
     border-radius: 7px;
     font-size: 18px;
     font-weight: 200;
+    color: #585757;
 
 }
 header .login-btn .btn-login1:hover{
@@ -113,6 +114,7 @@ header .cart{
     justify-content: center;
     font-size: 18px;
     cursor: pointer;
+    color: #585757;
 
 }
 header .cart .fa-cart-shopping{
@@ -131,6 +133,8 @@ header .bseller{
     justify-content: center;
     font-size: 18px;
     cursor: pointer;
+    color: #585757;
+    
     
 
 }
@@ -157,4 +161,122 @@ header .menu3 .menu-btn:hover{
     background-color: #e7eaeb;
 }
 
+/* section Cat */
 
+.section-1{
+    width: 100%;
+    height: 150px;
+   
+    background-color: #ffffff;
+    box-shadow: 0 1x 1x 0 rgb(0 0 0/16%)
+    
+
+
+}
+.section-contents{
+    
+    
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 10px;
+    
+  
+}
+.section-1-item{
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    font-size: 16px;
+    font-weight: 500;
+    
+   
+    
+
+}
+.section-1-item img{
+    width: 64px;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+.section-1-item:hover{
+    cursor: pointer;
+    
+}
+.offer-banner{
+    margin-top: 10px;
+    height: 280px;
+    margin-right: 6px;
+    margin-left: 6px;
+    background-image: url("Resources/cnf.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.list-item{
+    height:300px ;
+    width: 200px;
+    float: right;
+    margin-right: 6px;
+    margin-top: 9px;
+    margin-bottom: 6px;
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    
+    background-image: url("Resources/sec\ 3\ noting.webp");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.offer-mobiles{
+    /* padding: 20px; */
+    background-color: #ffffff;
+}
+.offer-mobiles h2{
+    margin-top: 10px;
+    margin-left: 10px;
+    padding-top: 5px;
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+.mobiles-offers{
+    display: flex;
+    /* gap: 20px; */
+    padding-bottom: 10px;
+    
+
+}
+.deal-card{
+    height: 280px;
+    width: 200px;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 15px;
+    cursor: pointer;
+    background-color: #fff;
+}
+.p-offer{
+    font-weight: 500;
+    font-size: 14px;
+
+}
+.p-name{
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+/* End */
