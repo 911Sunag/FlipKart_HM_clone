@@ -293,6 +293,17 @@ header .menu3 .menu-btn:hover{
     gap: 8px;
     width: 33%;
 }
+.made-by{
+    background-color:#ffffff;
+    margin-top: 8px;
+    text-align: center;
+    color: #4f5363;
+    font-size: 8px;
+}
+.made-by b:hover{
+    color: #2a55e5;
+    cursor: pointer;
+}
 
 
 /* End */
